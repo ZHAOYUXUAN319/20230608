@@ -1,0 +1,14 @@
+000010 IDENTIFICATION                   DIVISION.
+000020 PROGRAM-ID.                      SAMPLE-03.
+000030*
+000040 ENVIRONMENT                      DIVISION.
+000050*
+000060 DATA                             DIVISION.
+000070 WORKING-STORAGE                  SECTION.
+000080 77 NUM                           PIC 9(3).
+000090*
+000100 PROCEDURE DIVISION.
+000110 MAIN.
+000120     ACCEPT    NUM                FROM  CONSOLE.
+000130     DISPLAY  "NUM ‚Ì“à—e‚Í " NUM UPON  CONSOLE.
+000140     STOP RUN.
